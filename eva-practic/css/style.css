@@ -1,0 +1,301 @@
+body{
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+.wrapper{
+    min-height:100%;
+    width: 100%;
+    overflow: hidden;
+}
+.container{
+    max-width:1260px;
+    padding:0 15px;
+    margin: 0 auto;
+    height: 100%;
+}
+/* ============================== header ============================== */
+.header{
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+.header_top-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.header_logo{
+    margin-right: 60px;
+}
+.header_nav{
+    margin-right:auto;
+}
+.header_nav-list{
+    display: flex;
+}
+.header_nav-item{
+    padding-right: 40px;
+    line-height: 26px;
+
+text-transform: uppercase;
+}
+.header_nav-item:last-child{
+    margin-right:0px;
+  }
+  .header_nav-link{
+    line-height: 26px;
+  }
+  .header_nav-link:hover{
+    color:#FF3F3A;
+}
+.button{
+    display: inline-block;
+    font-weight:400;
+    letter-spacing:normal;
+    line-height:24px;
+    padding:14px 40px;
+    color: #ffff;
+    border-radius: 35px;
+    background: #0057FF;
+    white-space: nowrap
+}
+.header_btn-box{ 
+    display: flex;
+    align-items: center;
+    
+}
+.header_top-btn{
+    line-height: 24px;
+text-transform: uppercase;
+}
+.header_body {
+    flex:1;
+
+  }
+  
+  .header_body-inner {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .header_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #1E212C;
+    margin: auto 0;
+  }
+  
+  .header_content {
+    margin-right: 30px;
+  }
+  .header_title{
+    font-size: 56px;
+    line-height: 66px;
+    white-space: nowrap;
+    margin-bottom: 52px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  .header_text{
+    font-weight: 400; 
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 17px;
+  }
+  .header_Log-full{
+    display: flex;
+    margin-bottom:52px;
+  }
+  .header_img-tr{
+    margin-right: 20px;
+  }
+  .header_name{
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 28px;
+    line-height: 28px;
+text-transform: uppercase;
+  }
+.header_b-box{
+display: inline-block;
+font-weight:400;
+letter-spacing:normal;
+line-height:24px;
+padding:14px 40px;
+color: #ffff;
+border-radius: 30px;
+background: #FFA332;
+white-space: nowrap
+}
+.header_g1-btn{
+    text-transform: uppercase;
+    font-size: 14px;
+}
+/* ============================== about ============================== */
+.about_eva{
+    align-items: center;
+    margin-bottom: 201px;
+}
+.about_eva-content{
+    text-align: center;
+}
+.heading_sibtitle{
+    font-size: 11px;
+    line-height: 22px;
+    color: #0057FF;
+    margin-bottom: 4px;
+
+letter-spacing: 0.5px;
+text-transform: uppercase;
+}
+.heading_title{
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 1px;
+    line-height: 48px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    
+letter-spacing: 0.5px;
+text-transform: uppercase;
+}
+.about_text{
+    margin-top: 39px;
+}
+.about_paragraph{
+    font-size: 16px;
+line-height: 26px;
+}
+.about-eva{
+text-align: center;
+margin-right: 40px;
+}
+.about_eva-cn{
+    font-size: 14px;
+   
+    text-transform: uppercase;
+}
+
+
+
+
+/* ============================== world ============================== */
+.world_eva{
+    display: flex;
+    justify-content: space-between;
+}
+
+.world_left{
+    display: flex;
+    max-width: 500px;
+    margin-top: 102px;
+}
+
+.heading_title{
+    margin-bottom: 48px;
+}
+.world_text{
+    font-size: 15px;
+    line-height: 26px;
+    margin-bottom: 37px;
+}
+.world_cart{
+    display: flex;
+}
+.world_costom{
+margin-right: 89px;
+}
+.world_costom-img{
+    margin-bottom: 28px;
+}
+.world_tit{
+    font-size: 25px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    margin-bottom: 16px;
+}
+.world_text{
+    font-style: 14px;
+    margin-bottom: 30px;
+}
+.world_btn{
+    text-transform: uppercase;
+}
+
+
+
+.world_rigth{
+    background:#FFFFFF;
+    box-shadow: 0px 8px 28px rgba(83, 83, 83, 0.15);
+    border-radius: 15px;;
+    max-width:540px;
+}
+.world_rigth-img{
+margin-bottom: 57px;
+}
+.world_rig-tit{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 29px;
+    margin-bottom: 26px;
+}
+.world_rig-text{
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 17px;
+}
+
+.world_rigth {
+    margin-bottom: 280px;
+}
+
+
+
+.world_form-row {
+    display: flex;
+    margin-bottom: 32px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.world_form-label {
+    margin-right: 25px;
+    flex: 1 1 auto;
+}
+.world_form-label:last-child {
+    margin-right: 0;
+}
+.world_form-input,
+.world_form-text  {
+    display: block;
+    border: 1px solid #E7E7E7;
+    border-radius: 6px;
+    padding: 13px 26px;
+    width: 100%;
+}
+.world_text-label {
+    display: block;
+    margin-bottom: 38px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.world_form-text{
+    resize: none;
+    height: 140px;
+}
+.world_form-rowsub{
+    
+}
+.world_btn-box {
+    padding-left:40px;
+    padding-right: 40px;
+    margin-bottom: 51px;
+}
+.world_top-btn {
+    width: 100%;
+    text-align: center;
+}
+.button {
+}
